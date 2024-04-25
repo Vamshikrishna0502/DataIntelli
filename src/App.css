@@ -1,0 +1,38 @@
+
+.sidebar {
+  position: absolute;
+  left: -5vw;
+  height: 100%;
+  width: 5vw;
+  transition: left 0.3s ease-in-out;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transition: left 0.3s ease-in-out;
+}
+.sidebar.open {
+  left: 0;
+}
+.content.open {
+  left: 5vw;
+}
+
+.home-container {
+  display: flex;
+}
+.open-container {
+  margin-left: 7vw;
+  transition: margin-left .3s;
+  padding-left: 24px;
+  width: 100%;
+}
+.closed-container {
+  margin-left: 36px;
+  transition: margin-left .3s;
+  
+  width: 100%;
+}

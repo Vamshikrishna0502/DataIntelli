@@ -1,0 +1,21 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 48px;
+}
+.cal-container {
+    display: flex;
+    align-items: center;
+    min-width:300px;
+    justify-content: space-between;
+}
+.time-container {
+    display: flex;
+    align-items: center;
+}
+.time-margin {
+    margin-left: 12px;
+}
+.card-container{
+    display: flex;
+}
